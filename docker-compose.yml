@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  app:
+    image: dimitarmalamski/student-registry-app:latest
+    ports:
+      - "3032:3032"
+    environment:
+      - NODE_ENV=production
